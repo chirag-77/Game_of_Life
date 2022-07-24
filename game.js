@@ -28,6 +28,7 @@ playSound(randomColor);}
 
 $(".btn").click(function(){
 var userChosenColour=this.id;
+animatePress(userChosenColour);
 $("#"+userChosenColour).fadeIn(100).fadeOut(100).fadeIn(100);
 userClickedPattern.push(userChosenColour);
 check(userChosenColour);
@@ -52,6 +53,13 @@ function check(userChosenColour){
        }
 
 }
+function animatePress(currentColor) {
+    $("#" + currentColor).addClass("pressed");
+    setTimeout(function () {
+      $("#" + currentColor).removeClass("pressed");
+    }, 100);
+  }
+  
 function startOver(){
     level=0; fired=false;
      gamePattern=[];
