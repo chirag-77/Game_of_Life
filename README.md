@@ -1,3 +1,4 @@
+# Simon-Game
 This web application is a simulation of the classical electronic simon game which requires you to keep a track of the buttons that are being prompted after each level is passed and press them in the required order to move on to the next level and the cycle repeats.
 Teck stacks used are HTML/CSS,JS.
 
