@@ -8,5 +8,4 @@ Following is a demonstration of the application.
 https://user-images.githubusercontent.com/86802843/189475537-067a54b1-e8b7-4498-b656-76f6d0f57285.mp4
 
 
-
-You can build and run it on your local system at http://localhost:3000/ .
+Find the live game at https://chirag-77.github.io/Simon_Game/
